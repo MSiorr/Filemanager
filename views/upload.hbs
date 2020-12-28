@@ -1,0 +1,12 @@
+<div id="main">
+    <div id="nameDiv">
+        <p>Multiupload</p>
+    </div>
+
+    <form action="/handleUpload" method="POST" enctype="multipart/form-data" id="uploadForm">
+
+        <input type="file" required accept="*/*" name="uploadFiles" multiple>
+        <button type="submit">Upload</button>
+
+    </form>
+</div>

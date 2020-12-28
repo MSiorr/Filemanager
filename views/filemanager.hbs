@@ -1,0 +1,22 @@
+<div id="main">
+    <div id="nameDiv">
+        <p>Filemanager</p>
+        <a href="/deleteAll" id="deleteAHref">usuń dane o plikach z tablicy</a>
+    </div>
+
+    <table id="fileTable">
+        <tr>
+            <th>id</th>
+            <th>obraz</th>
+            <th>name</th>
+            <th>size</th>
+            <th>type</th>
+            <th>-</th>
+            <th>-</th>
+            <th>-</th>
+        </tr>
+        {{#each files}}
+        <tr>{{> fileRow}}</tr>
+        {{/each}}
+    </table>
+</div>

@@ -1,0 +1,15 @@
+<div id="main">
+    <div id="nameDiv">
+        <p>File info</p>
+    </div>
+    {{#if build}}
+    <div id="infoDiv">
+        <p><span class="title"><u>id</u>: </span> {{id}}</p> <br/>
+        <p><span class="title"><u>name</u>: </span> {{name}}</p> <br/>
+        <p><span class="title"><u>path</u>: </span> {{path}}</p> <br/>
+        <p><span class="title"><u>size</u>: </span> {{size}}</p> <br/>
+        <p><span class="title"><u>type</u>: </span> {{type}}</p> <br/>
+        <p><span class="title"><u>savedate</u>: </span>{{savedate}}</p> <br/>
+    </div>
+    {{/if}}
+</div>
